@@ -3,7 +3,7 @@ const verifyProof = require('../utils/verifyProof');
 const MerkleTree = require('../utils/MerkleTree');
 const niceList = require('../utils/niceList');
 
-const port = 8080;
+const port = 1225;
 
 const app = express();
 app.use(express.json());
